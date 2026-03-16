@@ -780,7 +780,6 @@ export const SHOP_ITEMS: ShopItem[] = [
   // Merch items
   {
     id: 'merch-aggc-tshirt',
-    hidden: true,
     name: 'AGGC T-Shirt',
     description: 'Embroidered Manifold logo on front, "Anti Gambling Gambling Club" print on back',
     price: 5000,
@@ -804,7 +803,6 @@ export const SHOP_ITEMS: ShopItem[] = [
   },
   {
     id: 'merch-cap-white-logo',
-    hidden: true,
     name: 'White Logo Cap',
     description: 'Black dad cap with white embroidered Manifold logo',
     price: 3000,
@@ -823,7 +821,6 @@ export const SHOP_ITEMS: ShopItem[] = [
   },
   {
     id: 'merch-cap-purple-logo',
-    hidden: true,
     name: 'Purple Logo Cap',
     description: 'White dad cap with purple embroidered Manifold logo',
     price: 3000,
