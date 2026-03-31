@@ -45,7 +45,7 @@ import { NavItem, SidebarItem } from './sidebar-item'
 export const SPEND_MANA_ENABLED = true
 
 // Set to true to show a "NEW" badge on the Shop nav item
-const SHOW_SHOP_NEW_BADGE = false
+const SHOW_SHOP_NEW_BADGE = true
 
 export default function Sidebar(props: {
   className?: string
@@ -186,7 +186,7 @@ const getDesktopNav = (
         children: SHOW_SHOP_NEW_BADGE ? (
           <>
             Shop
-            <span className="ml-2 rounded-full bg-amber-400 px-1.5 py-0.5 text-[10px] font-bold text-amber-900">
+            <span className="ml-2 rounded-full bg-sky-200 px-1.5 py-0.5 text-[10px] font-bold text-sky-800">
               NEW
             </span>
           </>
@@ -245,7 +245,7 @@ const getMobileNav = (
       children: SHOW_SHOP_NEW_BADGE ? (
         <>
           Shop
-          <span className="ml-2 rounded-full bg-amber-400 px-1.5 py-0.5 text-[10px] font-bold text-amber-900">
+          <span className="ml-2 rounded-full bg-sky-200 px-1.5 py-0.5 text-[10px] font-bold text-sky-800">
             NEW
           </span>
         </>
